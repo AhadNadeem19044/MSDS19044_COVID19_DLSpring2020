@@ -29,4 +29,17 @@ Epochs = 10
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(resnet18.parameters(), lr=0.001, momentum=0.9)
 
-and the accuracy acheived by ResNet-18 is 85% which is less than VGG-16 in this case but it was a bit faster than VGG-16.
+following are the confusion matrices obtained on Training, Validation and testing data:
+#### Training:
+ttensor([[3928.,  991.],
+        [ 670., 6411.]])
+
+#### Validation:
+tensor([[504., 111.],
+        [106., 779.]])
+
+#### Testing:
+tensor([[538.,  77.],
+        [ 58., 827.]])
+
+and the accuracy acheived by ResNet-18 is 91% which is less than VGG-16 in this case but it was far more faster than VGG-16.
