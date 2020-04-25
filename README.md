@@ -1,5 +1,8 @@
 # MSDS19044_COVID19_DLSpring2020
 This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes.
+## Dataset
+https://drive.google.com/drive/u/0/folders/1-FzZhQO9oHIT9SNOWYoKsuz7fe447vtR
+
 ## Task 1 (Load pretrained CNN model and fine-tune FC Layers):
 In this task we are required to run VGG-16 and ResNet-18 using Pytorch on COVID-19 dataset in order to identify the infected and normal person.
 ### VGG-16
