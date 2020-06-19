@@ -14,13 +14,13 @@ optimizer = optim.SGD(vgg16.parameters(), lr=0.001, momentum=0.9)
 
 following are the confusion matrices obtained on Training, Validation and testing data:
 #### Training:
-tensor([[4619.,  300.],<br />
+([[4619.,  300.],<br />
         [ 717., 6318.]])
 #### Validation:
-tensor([[587.,  28.],<br />
+([[587.,  28.],<br />
         [110., 775.]])
 #### Testing:
-tensor([[595.,  20.],<br />
+([[595.,  20.],<br />
         [ 28., 857.]])
 
 The final accuracy acheived by VGG-16 is 96% which is quite good but it took lot of time even though the convulations are freezed.
@@ -34,15 +34,15 @@ optimizer = optim.SGD(resnet18.parameters(), lr=0.001, momentum=0.9)
 
 following are the confusion matrices obtained on Training, Validation and testing data:
 #### Training:
-ttensor([[3928.,  991.],<br />
+([[3928.,  991.],<br />
         [ 670., 6411.]])
 
 #### Validation:
-tensor([[504., 111.],<br />
+([[504., 111.],<br />
         [106., 779.]])
 
 #### Testing:
-tensor([[538.,  77.],<br />
+([[538.,  77.],<br />
         [ 58., 827.]])
 
 and the accuracy acheived by ResNet-18 is 91% which is less than VGG-16 in this case but it was far more faster than VGG-16.
