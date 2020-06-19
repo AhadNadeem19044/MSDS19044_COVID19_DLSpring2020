@@ -14,7 +14,7 @@ optimizer = optim.SGD(vgg16.parameters(), lr=0.001, momentum=0.9)
 
 following are the confusion matrices obtained on Training, Validation and testing data:
 #### Training:
-tensor([[4619.,  300.],
+tensor([[4619.,  300.],<br />
         [ 717., 6318.]])
 #### Validation:
 tensor([[587.,  28.],
